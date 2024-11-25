@@ -29,6 +29,7 @@ public class BookStoreApplication {
     /**
      * Initializes the default users (customer and admin) in the database.
      * If no users exist, creates a customer and an admin user.
+     * 
      */
     @Bean
     public CommandLineRunner initializeUsers() {
